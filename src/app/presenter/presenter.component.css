@@ -1,0 +1,19 @@
+mat-radio-group{
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+form{
+    max-width: 400px;
+    display: grid;
+}
+
+.settings-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.settings{
+    right: 0;
+    top: 50%;
+}

@@ -1,0 +1,14 @@
+<!-- <app-for-our-departed-loved-ones></app-for-our-departed-loved-ones>
+<app-for-healing-and-special-intentions></app-for-healing-and-special-intentions>
+<app-for-the-intentions-of-each-family-of-our-prayer-group></app-for-the-intentions-of-each-family-of-our-prayer-group> -->
+
+<div *ngFor="let i of prayerIntentions">
+    <h4> {{ i.title}} </h4>
+    <ul *ngFor="let lovedOne of i.lovedOnes">
+        <li>
+            <i>
+                {{lovedOne}}
+            </i>
+        </li>
+    </ul>
+</div>

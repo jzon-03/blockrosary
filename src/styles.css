@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+p,h4{
+    padding: 10px;
+}
+
+.tab{
+    margin: 40px;
+}
+.speaker-speech{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+td{
+    vertical-align: text-top;
+}
+
+.speaker{
+    width: 80px;
+}
+
+.prayer-title{
+    text-align: center;
+    background-image: linear-gradient(yellow, rgb(255, 255, 134));
+}

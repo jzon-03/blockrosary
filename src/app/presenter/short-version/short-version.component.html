@@ -1,0 +1,69 @@
+<div>
+    <span class="position-fixed settings" cdkDrag>
+        <button mat-icon-button (mousedown)="openSettings()" (mouseup)="mouseup()" (mouseleave)="mouseup()">
+            <mat-icon>settings</mat-icon>
+        </button>
+    </span>
+    <div class="sticky-top settings-container" style="background-color: seashell;">
+        <mat-radio-group [(ngModel)]="mystery">
+            <mat-radio-button [value]="1">G</mat-radio-button>
+            <mat-radio-button [value]="2">J</mat-radio-button>
+            <mat-radio-button [value]="3">L</mat-radio-button>
+            <mat-radio-button [value]="4">S</mat-radio-button>
+        </mat-radio-group>
+        <div class="dropdown">
+
+            <span mat-mini-fab data-bs-toggle="dropdown" aria-expanded="false">🔽
+            </span>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" (click)="scrollToElement(mysteries)">Mysteries</a></li>
+                <li><a class="dropdown-item" (click)="scrollToElement(hailHolyQueen)">Hail Holy Queen</a></li>
+                <li><a class="dropdown-item" (click)="scrollToElement(songs)">Songs</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+    <app-intro></app-intro>
+    <app-prayertotheholyspirit></app-prayertotheholyspirit>
+    <app-prayer-intentions></app-prayer-intentions>
+    <app-endofcovid></app-endofcovid>
+    <app-duringcovid></app-duringcovid>
+    <app-divinemercychaplet></app-divinemercychaplet>
+    <app-hailmary></app-hailmary>
+    <app-apostlescreed></app-apostlescreed>
+    <app-eternalfather></app-eternalfather>
+    <app-themostholyrosary></app-themostholyrosary>
+    <p><span style="color: red;">(Sing) <br>
+        </span> Ave, Ave, Ave Maria…</p>
+
+    <div #mysteries></div>
+    <container-element [ngSwitch]="mystery">
+        <app-fivegloriousmysteries *ngSwitchCase="1"></app-fivegloriousmysteries>
+        <app-fivejoyfulmysteries *ngSwitchCase="2"></app-fivejoyfulmysteries>
+        <app-fiveluminousmysteries *ngSwitchCase="3"></app-fiveluminousmysteries>
+        <app-fivesorrowfulmysteries *ngSwitchCase="4"></app-fivesorrowfulmysteries>
+    </container-element>
+
+    <div #hailHolyQueen></div>
+    <app-hailholyqueen></app-hailholyqueen>
+    <div>
+        <!-- Choose from -->
+        <app-litanyoftheblessedvirginmary></app-litanyoftheblessedvirginmary>
+        <!-- <app-litanyofthemostholynameofjesus></app-litanyofthemostholynameofjesus> -->
+    </div>
+    <app-thememorare></app-thememorare>
+    <app-prayertostmichael></app-prayertostmichael>
+    <app-prayerofstgerttrudethegreat></app-prayerofstgerttrudethegreat>
+    <app-fatimaprayer></app-fatimaprayer>
+    <app-prayerofstignatiusofloyola></app-prayerofstignatiusofloyola>
+    <app-prayerofstfrancis></app-prayerofstfrancis>
+    <app-consecrationofsacredheartofjesus></app-consecrationofsacredheartofjesus>
+    <app-consecrationtothevirginmary></app-consecrationtothevirginmary>
+    <app-farewellprayer></app-farewellprayer>
+    <div #songs></div>
+    <h4 style="text-decoration: underline;">Songs after the Rosary</h4>
+    <app-ourladyoffatima></app-ourladyoffatima>
+    <app-immaculatemother></app-immaculatemother>
+    <app-stjosephsong></app-stjosephsong>
+</div>

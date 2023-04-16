@@ -1,0 +1,18 @@
+<h4 class="prayer-title">THE DIVINE MERCY CHAPLET</h4>
+
+<table>
+    <tbody>
+        <tr *ngFor="let pray of divineMercyChaplet">
+            <td class="speaker">
+                <div>
+                    <b>{{ pray.speaker }} </b>
+                </div>
+            </td>
+            <td>
+                <div [ngClass]="pray.class">
+                    {{ pray.speech }}
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
