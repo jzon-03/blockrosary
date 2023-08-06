@@ -58,6 +58,7 @@ import { LetUsPrayComponent } from './presenter/let-us-pray/let-us-pray.componen
 import { TheRosaryCrusadePrayerComponent } from './presenter/the-rosary-crusade-prayer/the-rosary-crusade-prayer.component';
 import { FatimaPardonPrayerComponent } from './presenter/fatima-pardon-prayer/fatima-pardon-prayer.component';
 import { LetThereBePeaceOnEarthComponent } from './presenter/let-there-be-peace-on-earth/let-there-be-peace-on-earth.component';
+import { MaranathaComponent } from './presenter/maranatha/maranatha.component';
 
 @NgModule({
   declarations: [
@@ -112,7 +113,8 @@ import { LetThereBePeaceOnEarthComponent } from './presenter/let-there-be-peace-
     LetUsPrayComponent,
     TheRosaryCrusadePrayerComponent,
     FatimaPardonPrayerComponent,
-    LetThereBePeaceOnEarthComponent
+    LetThereBePeaceOnEarthComponent,
+    MaranathaComponent
   ],
   imports: [
     BrowserModule,

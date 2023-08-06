@@ -14,7 +14,7 @@ export class TheDivineMercyChapletComponent {
     {class:"", speaker:"ALL:", speech:"Holy Mary, Mother of God, pray for us sinners now, and at the hour of our death. Amen."},
     {class:"", speaker:"ALL:", speech:"I believe in God, the Father Almighty, Creator of heaven and earth, and in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died and was buried; He descended into hell; on the third day He rose again from the dead; He ascended into heaven, and is seated at the right hand of God the Father Almighty; from there He will come to judge the living and the dead. I believe in the Holy Spirit, the Holy Catholic Church, the communion of Saints, the forgiveness of sins, the resurrection of the body, and life everlasting. Amen."},
     {class:"red", speaker:"", speech:"	(Repeat for each of 5 decades)"},
-    {class:"", speaker:"Leader:", speech:"Eternal Father, I offer you the Body and Blood, Soul and Divinity of Your Dearly Beloved Son, Our Lord, Jesus Christ."},
+    {class:"", speaker:"Leader:", speech:"Eternal Father, I offer you the Body, Blood, Soul and Divinity of Your Dearly Beloved Son, Our Lord, Jesus Christ."},
     {class:"", speaker:"ALL:", speech:"In atonement for our sins and those of the whole world."},
     {class:"red", speaker:"",speech:"(Repeat 10x for each decade)"},
     {class:"", speaker:"Leader", speech:"For the sake of His sorrowful Passion."},

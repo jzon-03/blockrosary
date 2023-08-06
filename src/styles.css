@@ -25,3 +25,11 @@ td{
     text-align: center;
     background-image: linear-gradient(yellow, rgb(255, 255, 134));
 }
+
+p{
+    padding-top: 0px;
+}
+
+h4{
+    padding-bottom: 0px;
+}
