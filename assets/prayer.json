@@ -1,0 +1,106 @@
+[
+    {
+        "reader": "leader",
+        "body": "Let us now be quiet, quiet our souls as we prepare ourselves to be in the presence of Our Lord and our Blessed Mother. Let us invite them, our group’s guardian angel, and all the angels and saints to pray for and with us.  While the hymn to the Holy Spirit is playing, let us meditate on the awesomeness of God and His working in our lives with grateful hearts.",
+        "following": "Play the Holy Spirit Hymn"
+    },
+    {
+        "reader": "all",
+        "title": "Prayer to the Holy Spirit",
+        "body": "In the name of the Father, of the Son and of the Holy Spirit. (Use Holy Water if you have it) Come Holy Spirit, fill the hearts of thy faithful and enkindle in them the fire of Thy Love.  Send forth Thy Spirit and they shall be created.  And Thou shall renew the face of the earth.  Jesus, we gather in prayer today for love of You, for the conversion of sinners and in reparation for the sins committed against the Immaculate Heart of Mary."
+    },
+    {
+        "reader": "all",
+        "body": "Come Holy Spirit, come by means of the powerful intercession of the Immaculate Heart of Mary, your well-beloved Spouse. (3x)"
+    },
+    {
+        "reader": "all",
+        "title": "Prayer for the End of the Corona Virus Pandemic",
+        "body": "May we who are merely inconvenienced, remember those whose lives are at stake. \n May we who have no risk factors, remember those most vulnerable. \n May we who have the luxury of working from home, remember those who must choose between preserving their health or making their rent.\n May we who have the flexibility to care for our children when their schools close, remember those who have no options. \n May we who have to cancel our trips, remember those that have no place to go. \n May we who are losing our margin money in the tumult of the economic market, remember those who have no margin at all. \n May we who settle in for a quarantine at home, remember those who have no home."
+    },
+    {
+        "reader": "all",
+        "title": "Prayer During the Corona Virus Pandemic",
+        "body": "O clement, O loving, O sweet Mother Mary, \n We, your children of every nation, turn to you in this pandemic.\n Our troubles are numerous; our fears are great.\n Grant that we might deposit them at your feet,\n Take refuge in your Immaculate Heart, and obtain peace, healing, rescue, \n and timely help in all our needs.  \n You are our Mother.\n Pray for us, the health workers, the first responders, the priests and religious, and all those who risk their lives to bring help to the sick and the healthy, to your Son.  Amen. \n\n Saint Joseph, pray for us.  Ss. Francisco and Jacinta, pray for us."
+    },
+    {
+        "title": "Divine Mercy Chaplet",
+        "reader": "all",
+        "body": [
+            {
+                "our_father": "Our Father, who art in heaven, hallowed be thy name; \nthy kingdom come; \nthy will be done on earth as it is in heaven. \n Give us this day our daily bread; \nand forgive us our trespasses as we forgive those who trespass against us; \nand lead us not into temptation, but deliver us from evil. Amen.",
+                "hail_mary": "Hail, Mary, full of grace,\n the Lord is with thee.\n Blessed art thou amongst women\n and blessed is the fruit of thy womb, Jesus.\n Holy Mary, Mother of God,\n pray for us sinners,\n now and at the hour of our death. \n Amen.",
+                "apostles_creed": "I believe in God, the Father Almighty, Creator of Heaven and earth;\n and in Jesus Christ, His only Son Our Lord,\n Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried.\n He descended into Hell; the third day He rose again from the dead;\n He ascended into Heaven, and sitteth at the right hand of God, the Father almighty; from thence He shall come to judge the living and the dead.\n I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body and life everlasting.",
+                "5_decades": "Eternal Father, I offer You the body, blood, soul and divinity of your dearly beloved Son, our Lord Jesus Christ.\n In atonement for our sins and those of the whole world.",
+                "10_per_decade": "For the sake of His sorrowful Passion, have mercy on us and of the whole world.",
+                "holy_god": "Holy God, Holy Mighty One, Holy Immortal One, have mercy on us and of the whole world. (3x)",
+                "o_blood": "O Blood and water, which gushed forth from the heart of Jesus,  as a Fount of mercy for us, I trust in you.(3x)"
+            }
+        ]
+    },
+    {
+        "title": "The Most Holy Rosary of the Blessed Virgin Mary",
+        "body": [
+            {
+                "intro": "In the name of the Father, and of the Son, and of the Holy Spirit. Amen",
+                "apostles_creed": "I believe in God, the Father Almighty, Creator of Heaven and earth;\n and in Jesus Christ, His only Son Our Lord,\n Who was conceived by the Holy Spirit, born of the Virgin Mary, suffered under Pontius Pilate, was crucified, died, and was buried.\n He descended into Hell; the third day He rose again from the dead;\n He ascended into Heaven, and sitteth at the right hand of God, the Father almighty; from thence He shall come to judge the living and the dead.\n I believe in the Holy Spirit, the holy Catholic Church, the communion of saints, the forgiveness of sins, the resurrection of the body and life everlasting.",
+                "our_father": "Our Father, who art in heaven, hallowed be thy name; \nthy kingdom come; \nthy will be done on earth as it is in heaven. \n Give us this day our daily bread; \nand forgive us our trespasses as we forgive those who trespass against us; \nand lead us not into temptation, but deliver us from evil. Amen.",
+                "hail_mary": "Hail, Mary, full of grace,\n the Lord is with thee.\n Blessed art thou amongst women\n and blessed is the fruit of thy womb, Jesus.\n Holy Mary, Mother of God,\n pray for us sinners,\n now and at the hour of our death. \n Amen. (3x)",
+                "glory_be": "Glory be to the Father, \n and to the Son, \n and to the Holy Spirit. \n As it was in the beginning, is now, \n and ever shall be, \n world without end.",
+                "o_my_jesus": "O my Jesus, forgive us our sins, save us from the fire of hell, lead all souls to heaven, especially those who are in most need of Thy mercy."
+            }
+        ]
+    },
+    {
+        "id": "g",
+        "title": "The Five Glorious Mysteries",
+        "body": [
+            {
+                "title": "The First Glorious Mystery",
+                "subtitle": "The Resurrection",
+                "prayer": [
+                    {
+                        "reader": "all",
+                        "body": "Jesus rises from the dead (Mk. 16:6:8), glorious and immortal, on Easter Sunday. He conquers death and opens the gates of Heaven. Let our prayer meeting today raise us up and renew our lives by the Spirit that’s within us. Through baptism, our souls, dead in the tomb of original sin, radiate divine grace.  Just as Christ rose and appeared to many, so should we appear to the world as followers of Christ, radiating virtue."
+                    },
+                    {
+                        "reader": "all",
+                        "body": "We will live with Christ so that we may rise with Him."
+                    },
+                    {
+                        "intro": "With the image of the Resurrection in mind, we pray...",
+                        "our_father": "Our Father, who art in heaven, hallowed be thy name; \nthy kingdom come; \nthy will be done on earth as it is in heaven. \n Give us this day our daily bread; \nand forgive us our trespasses as we forgive those who trespass against us; \nand lead us not into temptation, but deliver us from evil. Amen.",
+                        "hail_mary": "Hail, Mary, full of grace,\n the Lord is with thee.\n Blessed art thou amongst women\n and blessed is the fruit of thy womb, Jesus.\n Holy Mary, Mother of God,\n pray for us sinners,\n now and at the hour of our death. \n Amen.(10x)",
+                        "glory_be": "Glory be to the Father, \n and to the Son, \n and to the Holy Spirit. \n As it was in the beginning, is now, \n and ever shall be, \n world without end.",
+                        "o_my_jesus": "O my Jesus, forgive us our sins, save us from the fire of hell, lead all souls to heaven, especially those who are in most need of Thy mercy.",
+                        "closing": "Our Lady of the Rosary, obtain for us from your Son the grace of a renewal of Spiritual fervor, so that we may realize our richest gift is the Catholic Faith.",
+                        "sing": "Ave, Ave, Ave Maria."
+                    }
+                ]
+            },
+            {
+                "title": "The Second Glorious Mystery",
+                "subtitle": "The Ascension",
+                "prayer": [
+                    {
+                        "reader": "all",
+                        "body": "As His mother, Mary, the Apostles and disciples looked on, Jesus was lifted up and a cloud took Him out of their sight… \" This Jesus, who was taken up from you into heaven, will come in the same way as you saw Him go into Heaven.\" Acts 1:9,11 Our Father, make us joyful in the Ascension of your Son Jesus Christ. May we follow Him into the new creation, for His Ascension is our glory and our hope."
+                    },
+                    {
+                        "reader": "all",
+                        "body": "I will follow the example of Christ on earth because I hope to be with Him in Heaven."
+                    },
+                    {
+                        "intro": "With the image of the Resurrection in mind, we pray...",
+                        "our_father": "Our Father, who art in heaven, hallowed be thy name; \nthy kingdom come; \nthy will be done on earth as it is in heaven. \n Give us this day our daily bread; \nand forgive us our trespasses as we forgive those who trespass against us; \nand lead us not into temptation, but deliver us from evil. Amen.",
+                        "hail_mary": "Hail, Mary, full of grace,\n the Lord is with thee.\n Blessed art thou amongst women\n and blessed is the fruit of thy womb, Jesus.\n Holy Mary, Mother of God,\n pray for us sinners,\n now and at the hour of our death. \n Amen.(10x)",
+                        "glory_be": "Glory be to the Father, \n and to the Son, \n and to the Holy Spirit. \n As it was in the beginning, is now, \n and ever shall be, \n world without end.",
+                        "o_my_jesus": "O my Jesus, forgive us our sins, save us from the fire of hell, lead all souls to heaven, especially those who are in most need of Thy mercy.",
+                        "closing": "Our Lady of the Rosary, obtain for us from your Son the Grace of detachment so that understanding the vanity of worldly things, we may adhere to you and heavenly realities.",
+                        "sing": "Ave, Ave, Ave Maria."
+                    }
+                ]
+            }
+        ]
+    }
+]
