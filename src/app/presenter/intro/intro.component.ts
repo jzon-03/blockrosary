@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { PrayerIntentionsComponent } from '../prayer-intentions/prayer-intentions.component';
+import { HolySpiritHymnComponent } from '../holy-spirit-hymn/holy-spirit-hymn.component';
 
 @Component({
   selector: 'app-intro',
@@ -23,6 +24,10 @@ export class IntroComponent implements OnInit {
 
   openPrayerIntentions(){
     this._dialog.open(PrayerIntentionsComponent)
+  }
+
+  playHymn(){
+    this._dialog.open(HolySpiritHymnComponent)
   }
 
 }
