@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-prayer-intentions',
@@ -13,7 +14,7 @@ export class PrayerIntentionsComponent implements OnInit {
   constructor(
     private _http:HttpClient
   ) {
-    this._http.get("../../../assets/json/prayer-intentions.json").subscribe((res)=>{
+    this._http.get("../../../" + environment.githubDomain + "assets/json/prayer-intentions.json").subscribe((res)=>{
       this.prayerIntentions = Object.values(res)
     })
   }
