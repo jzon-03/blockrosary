@@ -46,7 +46,6 @@ import { FarewellprayerComponent } from './presenter/farewellprayer/farewellpray
 import { PrayerIntentionsComponent } from './presenter/prayer-intentions/prayer-intentions.component';
 import { ForOurDepartedLovedOnesComponent } from './presenter/prayer-intentions/for-our-departed-loved-ones/for-our-departed-loved-ones.component';
 import { ForHealingAndSpecialIntentionsComponent } from './presenter/prayer-intentions/for-healing-and-special-intentions/for-healing-and-special-intentions.component';
-import { ForTheIntentionsOfEachFamilyOfOurPrayerGroupComponent } from './presenter/prayer-intentions/for-the-intentions-of-each-family-of-our-prayer-group/for-the-intentions-of-each-family-of-our-prayer-group.component';
 import { SettingsComponent } from './presenter/settings/settings.component';
 import { ShortVersionComponent } from './presenter/short-version/short-version.component';
 import { ConsecrationToTheBlessedMotherComponent } from './presenter/consecration-to-the-blessed-mother/consecration-to-the-blessed-mother.component';
@@ -102,7 +101,6 @@ import { MaranathaComponent } from './presenter/maranatha/maranatha.component';
     PrayerIntentionsComponent,
     ForOurDepartedLovedOnesComponent,
     ForHealingAndSpecialIntentionsComponent,
-    ForTheIntentionsOfEachFamilyOfOurPrayerGroupComponent,
     SettingsComponent,
     ShortVersionComponent,
     ConsecrationToTheBlessedMotherComponent,
