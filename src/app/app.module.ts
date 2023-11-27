@@ -59,6 +59,8 @@ import { FatimaPardonPrayerComponent } from './presenter/fatima-pardon-prayer/fa
 import { LetThereBePeaceOnEarthComponent } from './presenter/let-there-be-peace-on-earth/let-there-be-peace-on-earth.component';
 import { MaranathaComponent } from './presenter/maranatha/maranatha.component';
 import { HolySpiritHymnComponent } from './presenter/holy-spirit-hymn/holy-spirit-hymn.component';
+import { LtbpoeVideoComponent } from './presenter/let-there-be-peace-on-earth/ltbpoe-video/ltbpoe-video.component';
+import { StJosephSongVideoComponent } from './presenter/stjosephsong/st-joseph-song-video/st-joseph-song-video.component';
 
 @NgModule({
   declarations: [
@@ -114,7 +116,9 @@ import { HolySpiritHymnComponent } from './presenter/holy-spirit-hymn/holy-spiri
     FatimaPardonPrayerComponent,
     LetThereBePeaceOnEarthComponent,
     MaranathaComponent,
-    HolySpiritHymnComponent
+    HolySpiritHymnComponent,
+    LtbpoeVideoComponent,
+    StJosephSongVideoComponent
   ],
   imports: [
     BrowserModule,

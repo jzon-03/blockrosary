@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { LtbpoeVideoComponent } from './ltbpoe-video/ltbpoe-video.component';
 
 @Component({
   selector: 'app-let-there-be-peace-on-earth',
@@ -7,4 +9,11 @@ import { Component } from '@angular/core';
 })
 export class LetThereBePeaceOnEarthComponent {
 
+  constructor(
+    private _dialog: MatDialog
+  ){}
+
+  playVideo(){
+    this._dialog.open(LtbpoeVideoComponent)
+  }
 }
