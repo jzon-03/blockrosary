@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { PrayerIntentionsComponent } from '../prayer-intentions/prayer-intentions.component';
 
 @Component({
   selector: 'app-intro',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private _dialog: MatDialog
+  ) { }
   openingPrayers=[
     {speaker:"ALL:", speech:"In the name of the Father, and of the Son and of the Holy Spirit. Come Holy Spirit, fill the hearts of Thy faithful and enkindle in them the fire of Thy love."},
     {speaker:"Leader:", speech:"Send forth Thy Spirit and they shall be created."},
@@ -15,6 +19,10 @@ export class IntroComponent implements OnInit {
   ]
 
   ngOnInit(): void {
+  }
+
+  openPrayerIntentions(){
+    this._dialog.open(PrayerIntentionsComponent)
   }
 
 }
