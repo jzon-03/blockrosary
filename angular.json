@@ -80,10 +80,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "blockrosary:build:production"
+              "browserTarget": "blockrosary:build:production",
+              "ssl": true
             },
             "development": {
-              "browserTarget": "blockrosary:build:development"
+              "browserTarget": "blockrosary:build:development",
+              "ssl": true
             }
           },
           "defaultConfiguration": "development"

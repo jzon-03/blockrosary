@@ -4,3 +4,8 @@
 .rosary-hymn{
     width: 100%;
 }
+
+iframe{
+    object-position: center;
+    object-fit: contain;
+}
