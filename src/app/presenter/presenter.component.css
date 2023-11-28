@@ -13,6 +13,7 @@ main{
 .app-video{
     z-index: 10;
 }
+
 @media(max-width: 400px){
     main{
         height: 100vh;
@@ -22,7 +23,6 @@ main{
 
     .app-video{
         position: absolute;
-        max-height: 300px;
     }
 
     .app-standard{
