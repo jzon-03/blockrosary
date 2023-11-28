@@ -8,13 +8,13 @@ import { environment } from 'src/environments/environment';
 })
 export class VideoComponent implements OnInit {
 
+  innerWidth = window.innerWidth;
+  adjustVideoWidth: number = window.innerWidth;
+
   @ViewChild('video', { static: true }) public video!: ElementRef
-  constraints:MediaStreamConstraints = { audio: true, video: { width: 1280, height: 720 } };
-  iphoneConstraints = {
+  iphoneConstraints: MediaStreamConstraints = {
     audio: false,
     video: {
-      // width:{min:screenHeight*.95,ideal:screenHeight*.95,max:screenHeight*.95},
-      // facingMode: {exact:"environment"}
       facingMode: {exact:environment.facingMode}
     }
   }
@@ -30,5 +30,4 @@ export class VideoComponent implements OnInit {
       this.video.nativeElement.srcObject = stream;
     }).catch(console.error)
   }
-
 }
