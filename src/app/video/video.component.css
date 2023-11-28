@@ -1,37 +1,3 @@
-.vid-container{
-    position: relative;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.presenter{
-    height: 100vh;
-    /* overflow: auto; */
-    overflow-y: auto;
-    background-color: rgba(255, 255, 255, 0.507);
-    width: 50%;
-    position: absolute;
-    right: 0;
-}
 video{
-    height: 100vh;
-}
-.no-sm-screen{
-    display: block;
-}
-/* @media (max-width:600px){
-    video{
-        width: 100%;
-    }
-} */
-
-@media (max-width:400px){
-    .no-sm-screen{
-        display: none;
-    }
-
-    .vid-container{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+    height: 100%;
 }

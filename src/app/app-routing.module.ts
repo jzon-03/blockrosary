@@ -5,7 +5,7 @@ import { PresenterComponent } from './presenter/presenter.component';
 import { VideoComponent } from './video/video.component';
 
 const routes: Routes = [
-  {path:"",component:VideoComponent},
+  {path:"",component:PresenterComponent},
   {path:"home",component:HomeComponent}
 ];
 

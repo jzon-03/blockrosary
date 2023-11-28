@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-video',
@@ -8,12 +9,13 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 export class VideoComponent implements OnInit {
 
   @ViewChild('video', { static: true }) public video!: ElementRef
-  constraints = { audio: true, video: { width: 1280, height: 720 } };
+  constraints:MediaStreamConstraints = { audio: true, video: { width: 1280, height: 720 } };
   iphoneConstraints = {
     audio: false,
     video: {
       // width:{min:screenHeight*.95,ideal:screenHeight*.95,max:screenHeight*.95},
-      facingMode: {exact:"environment"}
+      // facingMode: {exact:"environment"}
+      facingMode: {exact:environment.facingMode}
     }
   }
 
