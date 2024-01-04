@@ -35,3 +35,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 npm config set registry https://registry.npmjs.org
 
 
+## Deploy to GitHub pages
+
+npm run deploy
+
