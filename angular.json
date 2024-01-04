@@ -85,7 +85,7 @@
             },
             "development": {
               "browserTarget": "blockrosary:build:development",
-              "ssl": true
+              "ssl": false
             }
           },
           "defaultConfiguration": "development"

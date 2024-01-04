@@ -1,5 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Fugaz+One&family=Lora&family=Poppins&family=Raleway&family=Roboto+Slab&family=Rochester&display=swap');
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 p,h4{
@@ -32,4 +32,8 @@ p{
 
 h4{
     padding-bottom: 0px;
+}
+
+.f-rochester{
+    font-family: 'Rochester', cursive;
 }
